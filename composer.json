@@ -1,0 +1,24 @@
+{
+    "name": "daniel/ecommerce-app",
+    "description": "Ecommerce App",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Cuevas"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vonage/client": "^4.0",
+        "intervention/image": "2.7",
+        "paypal/rest-api-sdk-php": "^1.6"
+    }
+}
