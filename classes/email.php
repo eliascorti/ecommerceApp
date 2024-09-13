@@ -55,7 +55,7 @@ class Email
         $mail->Password = '2152d332fb6b93'; // Asegúrate de usar la contraseña correcta
         $mail->SMTPAuth = true;
 
-        $mail->setFrom('cuentas@ecommerceApp.com');
+        $mail->setFrom('7c0b18001@smtp-brevo.com');
         $mail->addAddress($this->email, $this->nombre);
         $mail->Subject = 'Restablece tu password';
         $mail->isHTML(true);
