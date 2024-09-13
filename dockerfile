@@ -1,5 +1,5 @@
-# Usa una imagen base de PHP
-FROM php:8.0-cli
+# Usa una imagen base de PHP 8.1
+FROM php:8.1-cli
 
 # Establece el directorio de trabajo
 WORKDIR /app
