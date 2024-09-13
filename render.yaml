@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ecommerceApp
+    env: php
+    buildCommand: "composer install"  # Comando para instalar las dependencias PHP
+    startCommand: "php -S 0.0.0.0:10000 -t public"  # Comando para iniciar el servidor PHP
+    plan: free
